@@ -1,0 +1,36 @@
+/* Скидання стилів */
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Lemon:&display=swap");
+
+/* Основні стилі */
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2B303B;
+    color: #fff;
+    font-family: "Lemon";
+}
+
+h1 {
+    font-size: 70px;   
+}
+h1 p {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 10px;
+    background-color: #000000;
+}
+span {
+    color:#A5514F;
+}
+mark {
+    background-color: transparent;
+    color: #4085A9;
+}
+p {
+    font-size: 40px;
+   
+}
